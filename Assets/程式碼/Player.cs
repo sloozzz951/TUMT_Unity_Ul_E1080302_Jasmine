@@ -59,9 +59,8 @@ public class Player : MonoBehaviour
         {
             PlayerPrefs.SetFloat("最佳紀錄", 99999);
         }
-
         MedalTotal = GameObject.FindGameObjectsWithTag("勳章").Length;
-        textMedal.text = "Medal : 0 / " + MedalTotal;
+        textMedal.text = "Medal : 0 /" +  MedalTotal;
     }
 
     private void Update()
